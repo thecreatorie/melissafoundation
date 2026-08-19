@@ -1,0 +1,8 @@
+<svg width="300" height="450" viewBox="0 0 300 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="450" fill="#3D203F"/>
+  <rect x="14" y="14" width="272" height="422" fill="none" stroke="#DB479D" stroke-width="2" opacity="0.85"/>
+  <path d="M150 96 C 137 85 127 77 127 66 C 127 58.5 133 52.5 140.5 52.5 C 144.7 52.5 148.6 54.6 150 58 C 151.4 54.6 155.3 52.5 159.5 52.5 C 167 52.5 173 58.5 173 66 C 173 77 163 85 150 96 Z" fill="#DB479D"/>
+  <text x="150" y="180" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-size="27" font-weight="700" fill="#FFFFFF"><tspan x="150" dy="0">Cancer-Free</tspan></text>
+  <text x="150" y="268" text-anchor="middle" font-family="Arial, Poppins, sans-serif" font-size="15" fill="#FFFFFF" opacity="0.88"><tspan x="150" dy="24">Your Guide to Gentle,</tspan><tspan x="150" dy="24">Non-toxic Healing</tspan></text>
+  <text x="150" y="404" text-anchor="middle" font-family="Arial, Poppins, sans-serif" font-size="14" font-weight="600" fill="#DB479D">Bill Henderson &#38; Carlos M. Garcia, MD</text>
+</svg>
