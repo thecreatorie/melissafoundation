@@ -1,0 +1,28 @@
+<svg width="800" height="560" viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDF4F9"/>
+      <stop offset="0.6" stop-color="#F8E1EF"/>
+      <stop offset="1" stop-color="#F1C6DF"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" rx="24" fill="url(#bg0)"/>
+  <circle cx="120" cy="90" r="70" fill="#FFFFFF" opacity="0.35"/>
+  <circle cx="700" cy="470" r="100" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="680" cy="90" r="10" fill="#DB479D" opacity="0.35"/>
+  <circle cx="90" cy="470" r="14" fill="#DB479D" opacity="0.25"/>
+  <g>
+    <path d="M400 170 C 385 150 340 140 300 140 L 230 140 C 218 140 210 148 210 160 L 210 390 C 210 402 218 410 230 410 L 310 410 C 350 410 385 420 400 438 C 415 420 450 410 490 410 L 570 410 C 582 410 590 402 590 390 L 590 160 C 590 148 582 140 570 140 L 500 140 C 460 140 415 150 400 170 Z" fill="#FFFFFF"/>
+    <path d="M400 175 C 388 158 345 148 305 148 L 240 148 C 232 148 226 154 226 162 L 226 382 C 226 390 232 396 240 396 L 312 396 C 350 396 384 404 400 420 Z" fill="#F6D9EA"/>
+    <path d="M400 175 C 412 158 455 148 495 148 L 560 148 C 568 148 574 154 574 162 L 574 382 C 574 390 568 396 560 396 L 488 396 C 450 396 416 404 400 420 Z" fill="#FBEFF7"/>
+    <rect x="252" y="190" width="110" height="10" rx="5" fill="#DB479D" opacity="0.55"/>
+    <rect x="252" y="218" width="120" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <rect x="252" y="246" width="98" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <rect x="252" y="274" width="115" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <rect x="438" y="190" width="110" height="10" rx="5" fill="#DB479D" opacity="0.55"/>
+    <rect x="438" y="218" width="98" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <rect x="438" y="246" width="120" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <rect x="438" y="274" width="90" height="10" rx="5" fill="#3D203F" opacity="0.28"/>
+    <path d="M400 128 C 391 116 378 108 364 108 C 346 108 332 122 332 140 C 332 165 362 180 400 210 C 438 180 468 165 468 140 C 468 122 454 108 436 108 C 422 108 409 116 400 128 Z" fill="#DB479D" transform="translate(0,-38) scale(0.62) translate(245,60)"/>
+  </g>
+</svg>
