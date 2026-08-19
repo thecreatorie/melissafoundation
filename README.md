@@ -1,6 +1,6 @@
 # The Melissa Foundation
 
-Website for **The Melissa Foundation**, a 501(c)(3) non-profit organization (EIN 39-4516117) empowering people with knowledge, resources and support to make healthier choices and live healthier lives at every stage of their journey — before, during and after cancer.
+Website for **The Melissa Foundation**, a 501(c)(3) non-profit organization empowering people with knowledge, resources and support to make healthier choices and live healthier lives at every stage of their journey — before, during and after cancer.
 
 Dedicated in loving memory of Jamilla (Elizabeth) Deville.
 
