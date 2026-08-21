@@ -9,3 +9,27 @@
 .lift-hover img {
   transition: transform 0.6s;
 }
+
+/* Keep the Donate CTA visible from 992px up.
+   The theme hides .header-part-right below 1200px, but the slide-out menu
+   (which carries its own Donate button) only takes over below 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .site-header.box-header2 .main-bar .container .header-part-right {
+    display: flex;
+  }
+  .site-header.box-header2 .main-bar .container .header-part-right .btn {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+/* PayPal hosted button: the surrounding .card is a column flexbox, so the
+   button container needs a block wrapper to size and centre predictably. */
+.donate-widget {
+  width: 100%;
+}
+.donate-widget > div {
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
