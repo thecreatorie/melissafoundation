@@ -45,6 +45,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 
+	<!-- PayPal -->
+	<script src="https://www.paypal.com/sdk/js?client-id=BAAARbA_wg6Zn9t25QnBgBVxZj__daWOdUjzv40jbRhcLN-cTV9e-IIjfGAROdnATnaODDZJRpzLF2Sj_8&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+
 </head>
 <body id="bg" data-typography="typography_1">
 <div class="page-wraper">
@@ -89,6 +92,13 @@
 							<li><a href="recipes.html"><span>Recipes</span></a></li>
 							<li><a href="dedication.html"><span>Dedication</span></a></li>
 						</ul>
+
+						<div class="d-xl-none px-4 py-3">
+							<a href="donate.html" class="btn btn-primary btn-rounded w-100">
+								<i class="feather icon-heart"></i>
+								Donate
+							</a>
+						</div>
 					</div>
 
 					<!-- Nav Toggle Button -->
@@ -102,9 +112,9 @@
 				</div>
 
 				<div class="header-part-right">
-					<a href="events.html" class="btn btn-primary btn-lg btn-rounded btn-hover1">
-						<i class="icon feather icon-calendar"></i>
-						UPCOMING EVENTS
+					<a href="donate.html" class="btn btn-primary btn-lg btn-rounded btn-hover1">
+						<i class="icon feather icon-heart"></i>
+						DONATE
 					</a>
 				</div>
 
@@ -434,6 +444,41 @@
 		</div>
 	</section>
 
+
+		<section class="content-inner bg-white">
+		<div class="container">
+			<div class="row g-4 align-items-center">
+				<div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
+					<div class="section-head style-1 mb-0">
+						<span class="sub-title text-primary">Support Our Mission</span>
+						<h2 class="title">Help Us Help More People</h2>
+						<p class="mb-0">The Melissa Foundation is a 501(c)(3) non-profit. Your gift helps us share trusted resources, host healing events, and empower people to live healthier lives &mdash; before, during and after cancer.</p>
+					</div>
+				</div>
+				<div class="col-lg-5 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
+					<div class="card lift-hover border-0 shadow-sm p-4 text-center" style="border-radius: var(--radius-lg); background: linear-gradient(135deg, #FAF7F8 0%, #F9E4F0 55%, #F2C9E1 100%);">
+						<h4 class="m-b15">Make a Donation</h4>
+						<div class="d-flex justify-content-center">
+							<div id="paypal-container-home"></div>
+							<script>
+								(function () {
+									var el = document.getElementById("paypal-container-home");
+									if (!el) return;
+									if (typeof paypal === "undefined" || !paypal.HostedButtons) {
+										el.innerHTML = '<a class="btn btn-lg btn-primary btn-rounded btn-hover2 btn-shadow" href="donate.html">Donate Now</a>';
+										return;
+									}
+									paypal.HostedButtons({ hostedButtonId: "7LNL88BW7A9QQ" }).render("#paypal-container-home");
+								})();
+							</script>
+						</div>
+						<p class="mb-0 m-t15" style="font-size: 13px; color: var(--bs-secondary); opacity: 0.8;">Donations are tax-deductible to the extent allowed by law.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	</main>
 
 	<!-- Footer -->
@@ -473,6 +518,7 @@
 									<li><a href="index.html"><span>Our Mission</span></a></li>
 									<li><a href="dedication.html"><span>In Memory of Jamilla</span></a></li>
 									<li><a href="events.html"><span>Get Involved</span></a></li>
+										<li><a href="donate.html"><span>Donate</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -497,8 +543,12 @@
 						<p>May we turn loss into hope, knowledge into action, and every day into an opportunity to live healthier.</p>
 					</div>
 					<div class="col-lg-4 text-lg-end wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-						<a href="dedication.html" class="btn btn-lg btn-primary btn-rounded btn-hover2 btn-shadow">
-							Read Our Dedication
+						<a href="donate.html" class="btn btn-lg btn-primary btn-rounded btn-hover2 btn-shadow mb-2 mb-lg-0 m-r10">
+							Donate
+							<i class="feather icon-heart"></i>
+						</a>
+						<a href="dedication.html" class="btn btn-lg btn-outline-white btn-rounded btn-hover2">
+							Our Dedication
 							<i class="feather icon-arrow-right"></i>
 						</a>
 					</div>

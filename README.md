@@ -14,6 +14,7 @@ Dedicated in loving memory of Jamilla (Elizabeth) Deville.
 | Events — Yoga and Sound Healing with Melissa | `events.html` |
 | Recipes — Juices | `recipes.html` |
 | Dedication | `dedication.html` |
+| Donate | `donate.html` |
 
 ## Running locally
 
