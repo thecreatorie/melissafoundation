@@ -7,7 +7,7 @@
  * below. Until then the form falls back to opening the visitor's email app
  * with the message pre-filled, so nothing is lost.
  */
-var FORM_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxxxx"
+var FORM_ENDPOINT = "https://formspree.io/f/xvkzrznd";
 var FALLBACK_EMAIL = "donate@themelissafoundation.org";
 
 (function () {

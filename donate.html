@@ -45,8 +45,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 
-	<!-- PayPal -->
-	<script src="https://www.paypal.com/sdk/js?client-id=BAAARbA_wg6Zn9t25QnBgBVxZj__daWOdUjzv40jbRhcLN-cTV9e-IIjfGAROdnATnaODDZJRpzLF2Sj_8&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
 
 
 </head>
@@ -165,21 +163,13 @@
 				<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
 					<div class="card lift-hover border-0 shadow-sm p-4 p-md-5 text-center" style="border-radius: var(--radius-lg); background: linear-gradient(135deg, #FAF7F8 0%, #F9E4F0 55%, #F2C9E1 100%);">
 						<h3 class="m-b10">Make a Donation</h3>
-						<p class="m-b30">Give securely through PayPal or Venmo &mdash; no account required to donate by card.</p>
-						<div class="donate-widget">
-							<div id="paypal-container-7LNL88BW7A9QQ"></div>
+						<p class="m-b30">Give securely through PayPal &mdash; or scan a code below with your phone.</p>
+						<div>
+							<a href="https://www.paypal.com/qrcodes/managed/a8fac862-5335-4cb9-9473-ee41d981ece9?utm_source=old_merchant_lp" target="_blank" rel="noopener" class="btn btn-lg btn-primary btn-rounded btn-hover2 btn-shadow">
+								Donate with PayPal
+								<i class="feather icon-external-link"></i>
+							</a>
 						</div>
-							<script>
-								(function () {
-									var el = document.getElementById("paypal-container-7LNL88BW7A9QQ");
-									if (!el) return;
-									if (typeof paypal === "undefined" || !paypal.HostedButtons) {
-										el.innerHTML = '<a class="btn btn-lg btn-primary btn-rounded btn-hover2 btn-shadow" href="https://www.paypal.com/ncp/payment/7LNL88BW7A9QQ" target="_blank" rel="noopener">Donate with PayPal</a>';
-										return;
-									}
-									paypal.HostedButtons({ hostedButtonId: "7LNL88BW7A9QQ" }).render("#paypal-container-7LNL88BW7A9QQ");
-								})();
-							</script>
 						<p class="mb-0 m-t20" style="font-size: 13px; color: var(--bs-secondary); opacity: 0.85;">We are a 501(c)(3) non-profit charitable organization. Our EIN is 39-4516117. Donations are tax-deductible to the extent allowed by law.</p>
 					</div>
 				</div>

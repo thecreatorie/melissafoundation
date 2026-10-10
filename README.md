@@ -36,11 +36,16 @@ then open <http://localhost:8000>.
 ## Contact form
 
 GitHub Pages serves static files only and cannot process form posts, so the
-contact form needs a third-party endpoint. Create a free form at
-[Formspree](https://formspree.io) (or similar) and paste its URL into
-`FORM_ENDPOINT` at the top of `js/contact-form.js`.
+contact form posts to [Formspree](https://formspree.io). The endpoint is set
+in `FORM_ENDPOINT` at the top of `js/contact-form.js`.
 
-Until that is set, the form validates input and then offers the visitor a
-pre-filled `mailto:` link instead, so no message is lost.
+If the endpoint is ever cleared or the request fails, the form falls back to
+offering the visitor a pre-filled `mailto:` link, so no message is lost.
+
+## Donations
+
+Donations go to the foundation's PayPal via its managed payment link (the
+same destination as the PayPal QR code on the donate page), plus Zelle by QR.
+The PayPal link lives in `donate.html` and `index.html`.
 
 Intended domains: `themelissafoundation.org` (primary), with `themelissafoundation.com` forwarding to it.

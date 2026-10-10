@@ -23,16 +23,6 @@
   }
 }
 
-/* PayPal hosted button: the surrounding .card is a column flexbox, so the
-   button container needs a block wrapper to size and centre predictably. */
-.donate-widget {
-  width: 100%;
-}
-.donate-widget > div {
-  max-width: 340px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* Contact form */
 .form-message {
