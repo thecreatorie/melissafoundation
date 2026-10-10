@@ -23,13 +23,68 @@
   }
 }
 
-/* PayPal hosted button: the surrounding .card is a column flexbox, so the
-   button container needs a block wrapper to size and centre predictably. */
-.donate-widget {
-  width: 100%;
+
+/* Contact form */
+.form-message {
+  display: none;
+  padding: 14px 18px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 22px;
+  font-weight: 500;
+  line-height: 1.5;
 }
-.donate-widget > div {
-  max-width: 340px;
-  margin-left: auto;
-  margin-right: auto;
+.form-message.is-success,
+.form-message.is-error,
+.form-message.is-info {
+  display: block;
+}
+.form-message.is-success {
+  background: #E8F5E9;
+  color: #1B5E20;
+}
+.form-message.is-error {
+  background: #FDECEF;
+  color: #9B1B47;
+}
+.form-message.is-info {
+  background: var(--bs-primary-bg-subtle);
+  color: var(--bs-secondary);
+}
+.form-message a {
+  color: var(--bs-primary);
+  text-decoration: underline;
+}
+#contactForm .form-control {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  height: auto;
+}
+#contactForm .form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 3px rgba(var(--bs-primary-rgb), 0.12);
+}
+#contactForm .form-label {
+  margin-bottom: 6px;
+  color: var(--bs-secondary);
+}
+
+/* Donation QR codes */
+.qr-card {
+  text-align: center;
+  height: 100%;
+}
+.qr-card img {
+  width: 100%;
+  max-width: 230px;
+  height: auto;
+  margin: 0 auto 18px;
+  display: block;
+  background: #fff;
+  border-radius: var(--radius-sm);
+}
+
+/* Footer Instagram handle */
+.site-footer .widget-social a.d-inline-block:hover {
+  color: var(--bs-primary) !important;
 }
