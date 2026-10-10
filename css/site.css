@@ -84,52 +84,81 @@
   border-radius: var(--radius-sm);
 }
 
-
 /* ---------------------------------------------------------------
-   Footer layout
-   The theme stretches .widget_about to full height and spreads its
-   children with space-between, which left the logo stranded at the top
-   with large gaps below it. Lay it out normally instead, align all three
-   columns to the top, and give the legal text its own full-width bar.
+   Footer
+   A three-column grid left ~145px of dead space under the link lists
+   for this little content, so the footer is centred and compact: brand,
+   one nav row, Instagram, then the legal bar.
    --------------------------------------------------------------- */
-.site-footer.style-1 .widget_about {
-  display: block;
-  height: auto;
-  padding-bottom: 0;
-}
 .site-footer.style-1 .footer-top {
   padding: 24px 10px 0;
 }
 .site-footer.style-1 .footer-top > .footer-inner-wraper {
-  padding: 48px 20px 26px;
+  padding: 36px 24px 22px;
+  text-align: center;
 }
-footer .footer-logo {
-  margin-bottom: 20px;
-  line-height: 0;
+.site-footer.style-1 .widget_about {
+  display: block;
+  height: auto;
 }
-footer .footer-logo a {
+
+.footer-brand .footer-logo {
   display: inline-block;
   line-height: 0;
+  margin-bottom: 14px;
 }
-footer .footer-logo img {
-  max-width: 190px;
+.footer-brand .footer-logo img {
+  width: 164px;
+  max-width: 55vw;
 }
 .footer-about-text {
-  max-width: 400px;
-  margin-bottom: 18px;
+  max-width: 760px;
+  margin: 0 auto;
   font-size: 15px;
   line-height: 1.7;
   color: var(--bs-secondary);
+  text-wrap: balance;
 }
-footer .footer-title {
-  margin-bottom: 16px;
+
+/* Single nav row */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 28px;
+  margin: 22px auto 0;
+  padding: 18px 0;
+  border-top: 1px solid #ECE6E9;
+  border-bottom: 1px solid #ECE6E9;
 }
-.site-footer.style-1 .widget_services ul li {
-  padding: 0.3rem 0;
+.footer-nav a {
+  color: var(--bs-secondary);
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+.footer-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--bs-primary);
+  transition: width 0.3s;
+}
+.footer-nav a:hover {
+  color: var(--bs-primary);
+}
+.footer-nav a:hover::after {
+  width: 100%;
 }
 
 /* Instagram */
 .footer-ig {
+  margin-top: 16px;
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -138,14 +167,14 @@ footer .footer-title {
   transition: color 0.3s;
 }
 .footer-ig i {
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #F2ECEF;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 17px;
+  font-size: 16px;
   transition: all 0.3s;
 }
 .footer-ig:hover {
@@ -158,10 +187,9 @@ footer .footer-title {
 
 /* Legal bar */
 .footer-bottom-bar {
+  margin-top: 0;
+  padding-top: 18px;
   border-top: 1px solid #ECE6E9;
-  margin-top: 8px;
-  padding-top: 24px;
-  text-align: center;
 }
 .footer-bottom-bar p {
   color: var(--bs-secondary);
@@ -172,14 +200,20 @@ footer .footer-title {
   font-size: 13px;
   opacity: 0.7;
   max-width: 760px;
-  margin: 8px auto 0;
+  margin: 6px auto 0;
+  text-wrap: balance;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .site-footer.style-1 .footer-top > .footer-inner-wraper {
-    padding: 40px 20px 24px;
+    padding: 34px 18px 22px;
   }
-  .footer-about-text {
-    max-width: none;
+  .footer-nav {
+    gap: 10px 20px;
+    margin: 22px auto 20px;
+    padding: 18px 0;
+  }
+  .footer-nav a {
+    font-size: 14px;
   }
 }
