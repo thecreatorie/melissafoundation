@@ -175,6 +175,28 @@ footer .footer-title {
   margin: 8px auto 0;
 }
 
+/* Sister sites */
+.footer-bottom-bar .footer-family {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 18px;
+  margin: 0 auto 14px;
+  max-width: 900px;
+}
+.footer-bottom-bar .footer-family span {
+  font-weight: 600;
+  color: var(--bs-secondary);
+}
+.footer-bottom-bar .footer-family a {
+  color: var(--bs-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.footer-bottom-bar .footer-family a:hover {
+  color: var(--bs-primary);
+}
+
 @media only screen and (max-width: 991px) {
   .site-footer.style-1 .footer-top > .footer-inner-wraper {
     padding: 40px 20px 24px;
