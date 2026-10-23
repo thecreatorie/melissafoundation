@@ -32,6 +32,11 @@ then open <http://localhost:8000>.
 - `css/`, `js/`, `vendor/`, `icons/` — theme assets (ClinicMaster template by DexignZone, skin-5)
 - `images/` — logos (`logo.png` full, `logo-horizontal.png` for the header), favicon, photos and donation QR codes
 - `js/contact-form.js` — contact form handler
+- `css/site.css` — site-specific overrides, loaded last (includes the slightly darker brand pink `#C7338D` that keeps text and buttons at WCAG AA contrast)
+- Photos and logos have resized `.webp` copies (e.g. `images/logo-380.webp`, `images/melissa-and-fawnia-700.webp`) served through `<picture>`/`srcset` with the original as fallback — regenerate them if you replace an image
+- `images/og-image.jpg` — 1200×630 social share image
+- `robots.txt`, `sitemap.xml` — crawler rules (search engines and AI assistants allowed) and the list of pages; add new pages to the sitemap
+- `llms.txt`, `llms-full.txt` — plain-text summary of the site for AI assistants ([llmstxt.org](https://llmstxt.org)); update when page content changes
 
 ## Contact form
 

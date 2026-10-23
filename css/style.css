@@ -54,10 +54,8 @@
 		5.7 skin-7.scss
 		5.8 skin-8.scss
 */
-@import "../vendor/animate/animate.css";
-@import "../icons/feather/css/iconfont.css";
-@import "../icons/fontawesome/css/all.min.css";
-@import "../icons/flaticon/flaticon.css";
+/* animate.css, feather, fontawesome and flaticon used to be @imported here; they are now
+   <link>ed from each page's <head> (before this file) so they download in parallel. */
 :root {
   --radius-xl: 30px;
   --radius-lg: 20px;

@@ -205,3 +205,22 @@ footer .footer-title {
     max-width: none;
   }
 }
+
+/* ── Accessibility: brand pink, darkened just enough for WCAG AA ───────────
+   #DB479D on white / #FAF7F8 was 3.9:1 / 3.65:1 (buttons, sub-titles, links).
+   #C7338D is 4.9:1 on white and 4.6:1 on the light background. */
+html[data-theme-color=skin-5] {
+  --bs-primary: #C7338D;
+  --bs-primary-rgb: 199, 51, 141;
+  --bs-primary-btn-hover-bg: #A92B78;
+  --bs-primary-btn-hover-border-color: #A92B78;
+}
+
+/* ── Images ────────────────────────────────────────────────────────────────
+   <picture> wrappers (WebP + fallback) must not change layout, and images with
+   width/height attributes keep their aspect ratio unless a rule sets a height. */
+picture { display: contents; }
+:where(img[width][height]) { height: auto; }
+
+/* Inline text links need more than colour to stand out from the dark body text */
+p.text-secondary a.text-primary { text-decoration: underline; text-underline-offset: 2px; }
