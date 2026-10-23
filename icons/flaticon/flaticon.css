@@ -11,6 +11,7 @@
 
 @font-face {
 	font-family: "flaticon";
+	font-display: block;
 	src: url("./flaticon.woff2?3d45b69369877d41727d5ce676aa99ad") format("woff2"),
          url("./flaticon.woff?3d45b69369877d41727d5ce676aa99ad") format("woff"),
          url("./flaticon.eot?3d45b69369877d41727d5ce676aa99ad#iefix") format("embedded-opentype"),
