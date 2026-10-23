@@ -2,7 +2,7 @@
 
 > The Melissa Foundation is a 501(c)(3) non-profit charitable organization (EIN 39-4516117), based in Las Vegas, Nevada, empowering people with knowledge, resources and support to make healthier choices and live healthier lives at every stage of their journey — before, during and after cancer. Dedicated in loving memory of Jamilla (Elizabeth) Deville.
 
-Website: https://themelissafoundation.org/
+Website: https://www.themelissafoundation.org/
 Instagram: @themelissafoundation (https://www.instagram.com/themelissafoundation)
 Email: donate@themelissafoundation.org
 
@@ -10,7 +10,7 @@ The information on this website is shared for educational purposes only and is n
 
 ## Home
 
-URL: https://themelissafoundation.org/
+URL: https://www.themelissafoundation.org/
 
 A 501(c)(3) Non-Profit Organization
 
@@ -166,7 +166,7 @@ Donations are tax-deductible to the extent allowed by law.
 
 ## Blog
 
-URL: https://themelissafoundation.org/blog.html
+URL: https://www.themelissafoundation.org/blog.html
 
 #### Blog
 
@@ -186,7 +186,7 @@ More posts are on the way — check back soon.
 
 ## Resources
 
-URL: https://themelissafoundation.org/resources.html
+URL: https://www.themelissafoundation.org/resources.html
 
 #### Resources
 
@@ -234,7 +234,7 @@ A directory of doctors, naturopaths and practitioners is coming soon.
 
 ## Events
 
-URL: https://themelissafoundation.org/events.html
+URL: https://www.themelissafoundation.org/events.html
 
 #### Events
 
@@ -262,7 +262,7 @@ More events are being planned — check back soon.
 
 ## Recipes
 
-URL: https://themelissafoundation.org/recipes.html
+URL: https://www.themelissafoundation.org/recipes.html
 
 #### Recipes
 
@@ -294,7 +294,7 @@ More recipes are on the way — check back soon.
 
 ## Dedication
 
-URL: https://themelissafoundation.org/dedication.html
+URL: https://www.themelissafoundation.org/dedication.html
 
 #### Dedication
 
@@ -318,7 +318,7 @@ Donate in Her Memory
 
 ## Donate
 
-URL: https://themelissafoundation.org/donate.html
+URL: https://www.themelissafoundation.org/donate.html
 
 #### Donate
 
@@ -362,7 +362,7 @@ Scan, or use the button above
 
 ## Contact
 
-URL: https://themelissafoundation.org/contact.html
+URL: https://www.themelissafoundation.org/contact.html
 
 #### Contact
 
@@ -384,6 +384,6 @@ donate@themelissafoundation.org
 
 Las Vegas, Nevada
 
-Prefer to give instead? Make a donation (https://themelissafoundation.org/donate.html).
+Prefer to give instead? Make a donation (https://www.themelissafoundation.org/donate.html).
 
 #### Send Us a Message

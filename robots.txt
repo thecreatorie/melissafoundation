@@ -1,4 +1,4 @@
-# The Melissa Foundation — https://themelissafoundation.org
+# The Melissa Foundation — https://www.themelissafoundation.org
 # Search engines and AI assistants are welcome to crawl and cite this site.
 
 User-agent: *
@@ -31,4 +31,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://themelissafoundation.org/sitemap.xml
+Sitemap: https://www.themelissafoundation.org/sitemap.xml
