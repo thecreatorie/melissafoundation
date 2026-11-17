@@ -11,7 +11,7 @@ Dedicated in loving memory of Jamilla (Elizabeth) Deville.
 | Home | `index.html` |
 | Blog — What is Cancer? | `blog.html` |
 | Resources — books, doctors, naturopaths | `resources.html` |
-| Events — Yoga and Sound Healing with Melissa | `events.html` |
+| Events | `events.html` |
 | Recipes — Juices | `recipes.html` |
 | Dedication | `dedication.html` |
 | Donate | `donate.html` |
